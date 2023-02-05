@@ -69,9 +69,8 @@ add constraint colores_PK primary key(id_color);
 
 -- Tabla de Autos
 create table modelado.autos(
-	id_auto varchar(10) not null,
-	id_modelo varchar(10) not null, --FK
 	matricula varchar(50) null,
+	id_modelo varchar(10) not null, --FK
 	dt_compra date not null,
 	id_color varchar(10) not null,  --FK
 	tot_kms varchar(10) not null,
@@ -81,7 +80,7 @@ create table modelado.autos(
 );
 --pk 
 alter table modelado.autos
-add constraint autos_PK primary key(id_auto);
+add constraint autos_PK primary key(matricula);
 
 alter table modelado.autos
 add constraint auto_color_FK foreign key (id_color)
@@ -98,7 +97,7 @@ references modelado.monedas(id_moneda);
 -- Tabla de Pólizas
 create table modelado.polizas(
 	id_poliza varchar(50) not null,
-	id_auto varchar(10) not null, -- FK
+	matricula varchar(50) null, -- FK
 	dt_contrato date null,
 	dt_fincontrato date null,
 	costo  float not null,
@@ -110,8 +109,8 @@ alter table modelado.polizas
 add constraint polizas_PK primary key(id_poliza);
 
 alter table modelado.polizas
-add constraint poliza_auto_FK foreign key (id_auto)
-references modelado.autos(id_auto);
+add constraint poliza_auto_FK foreign key (matricula)
+references modelado.autos(matricula);
 
 alter table modelado.polizas
 add constraint poliza_aseguradora_FK foreign key (id_aseguradora)
@@ -121,6 +120,15 @@ alter table modelado.polizas
 add constraint poliza_moneda_FK foreign key (id_moneda)
 references modelado.monedas(id_moneda);
 
+-- Tabla de Tipo Servicio
+create table modelado.tiposervicio(
+	id_tiposervicio varchar(10) not null,
+	descripcion varchar(256) not null
+);
+--pk 
+alter table modelado.tiposervicio
+add constraint tiposervicio_PK primary key(id_tiposervicio);
+
 -- Tabla de Servicios
 create table modelado.servicios(
 	id_servicio varchar(50) not null,
@@ -129,7 +137,8 @@ create table modelado.servicios(
 	dt_salida date null,
 	costo  float not null,
 	id_moneda varchar(10) not null, -- FK
-	kms_entrada varchar(15) not null
+	kms_entrada varchar(15) not null,
+	id_tiposervicio varchar(10) not null -- FK
 );
 --pk 
 alter table modelado.servicios
@@ -142,6 +151,10 @@ references modelado.polizas(id_poliza);
 alter table modelado.servicios
 add constraint servicio_moneda_FK foreign key (id_moneda)
 references modelado.monedas(id_moneda);
+
+alter table modelado.servicios
+add constraint servicio_tipo_FK foreign key (id_tiposervicio)
+references modelado.tiposervicio(id_tiposervicio);
 
 
 

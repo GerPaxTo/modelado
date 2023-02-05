@@ -624,164 +624,192 @@ insert into modelado.modelos
 values ('55', '35', 'Leaf', '');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('01', '09', '2008 ZGZ', '01-01-2020', '01', 1000, 30000, 'USD');
+('09', '2008 ZGZ', '01-01-2020', '01', 1000, 30000, 'USD');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda, dt_baja )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda, dt_baja )
 values
-('02', '54', 'PXO 755', '01-01-2020', '05', 10000, 35000, 'USD', '01-01-2023');
+('54', 'PXO 755', '01-01-2020', '05', 10000, 35000, 'USD', '01-01-2023');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('03', '18', '2008 ZR1', '01-01-2018', '01', 20000, 40000, 'USD');
+('18', '2008 ZR1', '01-01-2018', '01', 20000, 40000, 'USD');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('04', '03', '2025 KR1', '01-01-2021', '02', 25000, 45000, 'USD');
+('03', '2025 KR1', '01-01-2021', '02', 25000, 45000, 'USD');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('05', '44', '3025 KR1', '01-01-2022', '03', 25000, 50000, 'EUR');
+('44', '3025 KR1', '01-01-2022', '03', 25000, 50000, 'EUR');
   
  insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('06', '23', '3045 RR1', '01-01-2021', '04', 27000, 60000, 'EUR');
+('23', '3045 RR1', '01-01-2021', '04', 27000, 60000, 'EUR');
 
  insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('07', '43', '3035 XX1', '01-01-2023', '02', 17000, 60000, 'EUR');
+('43', '3035 XX1', '01-01-2023', '02', 17000, 60000, 'EUR');
 
  insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('08', '46', '3135 XY1', '01-01-2022', '04', 15000, 62000, 'EUR');
+('46', '3135 XY1', '01-01-2022', '04', 15000, 62000, 'EUR');
 
  insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('09', '47', '4135 GG2', '01-01-2023', '02', 8000, 65000, 'EUR');
+('47', '4135 GG2', '01-01-2023', '02', 8000, 65000, 'EUR');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('10', '09', '20299 RGZ', '01-01-2021', '02', 1200, 30000, 'USD');
+('09', '20299 RGZ', '01-01-2021', '02', 1200, 30000, 'USD');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('11', '09', '2008 ZGR', '01-01-2021', '01', 1000, 30000, 'USD');
+('09', '2008 ZGR', '01-01-2021', '01', 1000, 30000, 'USD');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('12', '54', 'PXO 955', '01-01-2022', '05', 10000, 35000, 'USD');
+('54', 'PXO 955', '01-01-2022', '05', 10000, 35000, 'USD');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('13', '18', '2008 ZR1', '01-01-2019', '01', 20000, 40000, 'USD');
+('18', '4135 AB2', '01-01-2019', '01', 20000, 40000, 'USD');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('14', '03', '2025 E51', '01-01-2021', '02', 25000, 45000, 'USD');
+('03', '2025 E51', '01-01-2021', '02', 25000, 45000, 'USD');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('15', '44', '3025 AF1', '01-01-2022', '03', 25000, 50000, 'EUR');
+('44', '3025 AF1', '01-01-2022', '03', 25000, 50000, 'EUR');
   
  insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('16', '23', '3045 AE1', '01-01-2021', '04', 27000, 60000, 'EUR');
+('23', '3045 AE1', '01-01-2021', '04', 27000, 60000, 'EUR');
 
  insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('17', '43', '3035AD1', '01-01-2023', '02', 17000, 60000, 'EUR');
+('43', '3035AD1', '01-01-2023', '02', 17000, 60000, 'EUR');
 
  insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('18', '46', '3135 AC1', '01-01-2022', '04', 15000, 62000, 'EUR');
+('46', '3135 AC1', '01-01-2022', '04', 15000, 62000, 'EUR');
 
  insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('19', '47', '4135 AB2', '01-01-2023', '02', 8000, 65000, 'EUR');
+('47', '3035 AD1', '01-01-2023', '02', 8000, 65000, 'EUR');
 
 insert into modelado.autos
-(id_auto, id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
+(id_modelo, matricula, dt_compra, id_color, tot_kms, costo, id_moneda )
 values
-('20', '09', '20188 XGZ', '01-01-2020', '02', 1200, 30000, 'USD');
+('09', '20188 XGZ', '01-01-2020', '02', 1200, 30000, 'USD');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000001', '01', '03-02-2023', '02-02-2024', 1000, '01', 'EUR');
+('1000001', '2008 ZGZ', '03-02-2023', '02-02-2024', 1000, '01', 'EUR');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000002', '02', '03-02-2023', '02-02-2024', 1000, '02', 'EUR');
+('1000002', 'PXO 755', '03-02-2023', '02-02-2024', 1000, '02', 'EUR');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000003', '03', '03-02-2023', '02-02-2024', 1000, '03', 'EUR');
+('1000003', '20188 XGZ', '03-02-2023', '02-02-2024', 1000, '03', 'EUR');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000004', '04', '03-02-2023', '02-02-2024', 1000, '04', 'EUR');
+('1000004', '2008 ZR1', '03-02-2023', '02-02-2024', 1000, '04', 'EUR');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000005', '05', '03-02-2023', '02-02-2024', 1000, '05', 'EUR');
+('1000005', '2025 KR1', '03-02-2023', '02-02-2024', 1000, '05', 'EUR');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000006', '06', '03-02-2023', '02-02-2024', 1000, '06', 'EUR');
+('1000006', '3025 KR1', '03-02-2023', '02-02-2024', 1000, '06', 'EUR');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000007', '07', '03-02-2023', '02-02-2024', 1000, '07', 'EUR');
+('1000007', '3135 AC1', '03-02-2023', '02-02-2024', 1000, '07', 'EUR');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000008', '08', '03-02-2023', '02-02-2024', 1000, '07', 'EUR');
+('1000008', '3045 RR1', '03-02-2023', '02-02-2024', 1000, '07', 'EUR');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000009', '09', '03-02-2023', '02-02-2024', 1000, '07', 'EUR');
+('1000009', '3035 XX1', '03-02-2023', '02-02-2024', 1000, '07', 'EUR');
 
 insert into modelado.polizas
-(id_poliza, id_auto, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
+(id_poliza, matricula, dt_contrato, dt_fincontrato, costo, id_aseguradora, id_moneda)
 values
-('1000010', '10', '03-02-2023', '02-02-2024', 1000, '08', 'USD');
+('1000010', '3135 XY1', '03-02-2023', '02-02-2024', 1000, '08', 'USD');
+
+insert into modelado.tiposervicio
+(id_tiposervicio, descripcion)
+values
+('01', 'Servicio de 10000 kms');
+
+insert into modelado.tiposervicio
+(id_tiposervicio, descripcion)
+values
+('02', 'Servicio de 20000 kms');
+
+insert into modelado.tiposervicio
+(id_tiposervicio, descripcion)
+values
+('03', 'Servicio de 30000 kms');
+
+insert into modelado.tiposervicio
+(id_tiposervicio, descripcion)
+values
+('04', 'Revisión de Frenos');
 
 insert into modelado.servicios
-(id_servicio, id_poliza, dt_ingreso, dt_salida, costo, id_moneda, kms_entrada)
+(id_servicio, id_poliza, dt_ingreso, dt_salida, costo, id_moneda, kms_entrada, id_tiposervicio)
 values
-('00001', '1000008', '01-01-2022','02-01-2022', 120, 'USD', 1000)
+('00001', '1000008', '01-01-2022','02-01-2022', 120, 'USD', 1000, '04');
 
 insert into modelado.servicios
-(id_servicio, id_poliza, dt_ingreso, dt_salida, costo, id_moneda, kms_entrada)
+(id_servicio, id_poliza, dt_ingreso, dt_salida, costo, id_moneda, kms_entrada,id_tiposervicio)
 values
-('00002', '1000001', '05-01-2022','07-01-2022', 110, 'EUR', 1000)
+('00002', '1000001', '05-01-2022','07-01-2022', 110, 'EUR', 1000,'01');
 
+insert into modelado.servicios
+(id_servicio, id_poliza, dt_ingreso, dt_salida, costo, id_moneda, kms_entrada,id_tiposervicio)
+values
+('00003', '1000010', '05-01-2022','07-01-2022', 110, 'EUR', 1000,'01');
 
+insert into modelado.servicios
+(id_servicio, id_poliza, dt_ingreso, dt_salida, costo, id_moneda, kms_entrada, id_tiposervicio)
+values
+('00004', '1000008', '01-01-2022','02-01-2022', 120, 'USD', 1000, '01');
 
